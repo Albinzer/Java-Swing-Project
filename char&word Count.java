@@ -42,7 +42,7 @@ public class CharacterWordCounter {
 
         // Add action listener to the button
         countButton.addActionListener(new ActionListener() {
-            @Override
+            
             public void actionPerformed(ActionEvent e) {
                 String text = textArea.getText();
                 int charCount = text.length();
